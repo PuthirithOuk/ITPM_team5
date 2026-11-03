@@ -3,7 +3,17 @@ Capacity 40 h/week · contingency 56 h · paid capacity 12 USD/h · unallocated 
 Baseline: `features.csv` hours, `moscow.md` classes (Must 300 h = 59.5 %).
 Fixed sides (constraints.md): C-01 pilot week 14, C-02 40 h/week, C-03 cash 200 USD.
 
+## CR-01 · Add chat (F14, 40 h) to the Must scope · requested by sponsor
+F14 is rated Could in `moscow.md`. Adding it to Must raises Must from 300 h to 340 h.
 
+| Option | Time impact | Cost impact | Quality impact | Fixed side? |
+|--------|-------------|-------------|----------------|-------------|
+| A slip the pilot | +1 week (40/40) | 40 h, 0 USD | Pilot in week 15, outside the 14-week semester; O2 fails | violates C-01 |
+| B swap: defer F16 (30 h) + F15 (12 h) = 42 h | +0 weeks | 40 in, 42 out = -2 h net, 0 USD | Must share 340/502 = 67.7 % (guideline 60 %); a second real-time channel puts O3 (p95 <= 500 ms) and the week-7 MVP at risk (charter risk "Could creep") | ok |
+| C pay: TA 40 h | +0 weeks | 40 x 12 = 480 USD | 480 USD is 5.6 times the 85 USD unallocated; charter says "no paid staff" | violates C-03 |
+| D decline for the pilot, chat to release 1.1 | 0 weeks | 0 h, 0 USD | Must stays 59.5 %; O1 (8 of 8 Must at week 7) unaffected; sponsor sees no live chat at the pilot | ok |
+
+**Recommendation:** D. Chat fails the pilot test (nobody cancels the pilot without it) and B pushes Must to 67.7 %. A moves the fixed date, which only the sponsor can approve and which breaks the semester; B puts the week-7 MVP at risk for a Could feature; C breaks the cash cap. Re-check at the week-7 gate: if the MVP is green with at least 40 h of buffer, chat re-enters as a Could swapped against F16 and F15.
 
 ## CR-02 · Anonymous joining (F15, 12 h) · requested by the student representative
 F15 is Could in the baseline. The request promotes it to Should for the pilot.
