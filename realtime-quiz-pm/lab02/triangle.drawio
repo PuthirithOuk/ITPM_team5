@@ -1,0 +1,17 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Iron triangle" id="tri1">
+    <mxGraphModel dx="900" dy="700" grid="1" gridSize="10" page="1" pageWidth="900" pageHeight="700">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="edge1" style="endArrow=none;strokeWidth=2;" edge="1" parent="1" source="scope" target="time"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge2" style="endArrow=none;strokeWidth=2;" edge="1" parent="1" source="time" target="cost"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="edge3" style="endArrow=none;strokeWidth=2;" edge="1" parent="1" source="cost" target="scope"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="scope" value="&lt;b&gt;Scope&lt;/b&gt;&lt;br&gt;FLEXES&lt;br&gt;204 h of 504 h negotiable" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2E9E44;strokeWidth=4;fillColor=#E8F6EB;fontColor=#1a1a1a;" vertex="1" parent="1"><mxGeometry x="350" y="60" width="200" height="80" as="geometry"/></mxCell>
+        <mxCell id="time" value="&lt;b&gt;Time&lt;/b&gt;&lt;br&gt;FIXED (driver)&lt;br&gt;pilot in week 14" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D32F2F;strokeWidth=4;fillColor=#FDECEA;fontColor=#1a1a1a;" vertex="1" parent="1"><mxGeometry x="120" y="480" width="200" height="80" as="geometry"/></mxCell>
+        <mxCell id="cost" value="&lt;b&gt;Cost&lt;/b&gt;&lt;br&gt;FIXED&lt;br&gt;200 USD, 40 h/week" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D32F2F;strokeWidth=4;fillColor=#FDECEA;fontColor=#1a1a1a;" vertex="1" parent="1"><mxGeometry x="580" y="480" width="200" height="80" as="geometry"/></mxCell>
+        <mxCell id="quality" value="&lt;b&gt;Quality&lt;/b&gt;&lt;br&gt;p95 &amp;lt;= 500 ms · coverage &amp;gt;= 80 % · WCAG AA" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#555555;fillColor=#FFFFFF;fontColor=#1a1a1a;" vertex="1" parent="1"><mxGeometry x="360" y="320" width="180" height="100" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
