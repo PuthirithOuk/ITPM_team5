@@ -1,0 +1,7 @@
+criterion,weight,waterfall,scrum,hybrid
+Requirements stability,TODO,TODO,TODO,TODO
+Technical uncertainty,TODO,TODO,TODO,TODO
+Team experience with agile,TODO,TODO,TODO,TODO
+Contract and governance constraints,TODO,TODO,TODO,TODO
+Need for early delivery and feedback,TODO,TODO,TODO,TODO
+weighted score,100,=SUMPRODUCT($B$2:$B$6;C$2:C$6)/100,(copy),(copy)
