@@ -1,6 +1,6 @@
 # Project profile · Realtime Quiz
 
-Sources: [charter](../lab01/project-charter.md), [stakeholder list](../lab01/stakeholder-list.md), [MoSCoW list](../lab02/moscow-list.md), [constraint analysis](../lab02/constraint-analysis.md), Lab-03 handout recap table
+Sources: [charter](../lab01/charter.md), [stakeholder list](../lab01/stakeholders.md), [MoSCoW list](../lab02/moscow.md), [constraint analysis](../lab02/constraints.md), Lab-03 handout recap table
 
 | # | Criterion                            | Evidence (one fact)                                                                                           | Weight | Score 1-5 | W x S   |
 |---|--------------------------------------|---------------------------------------------------------------------------------------------------------------|-------:|----------:|--------:|
