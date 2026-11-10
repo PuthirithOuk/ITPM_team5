@@ -1,0 +1,8 @@
+id,item,fr_ids,priority,points,owner,acceptance_criteria
+B-01,Project skeleton with CI and Flyway,NFR-01,Must,3,A,"Given a fresh clone, when mvnw verify runs, then the build and tests are green in CI"
+B-02,Register with email and role,FR-A1,Must,3,B,"Given valid data, when I register, then my account is created and I can log in"
+B-03,Log in with JWT,FR-A2,Must,5,C,"Given valid credentials, when I log in, then I receive a token that expires after 12 h"
+B-04,Role checks for instructor and student pages,FR-A3,Must,3,D,"Given I am a student, when I open an instructor page, then access is refused"
+B-05,Create quiz with title and description,FR-Q1,Must,5,A,"Given I am an instructor, when I save a quiz, then it appears in my quiz list"
+B-06,Add edit reorder and delete questions,FR-Q2,Must,8,B,"Given a quiz, when I add and reorder questions, then the order is saved and shown"
+B-07,Single- and multi-answer question types,FR-Q4,Must,3,C,"Given a question, when I mark one or several answers correct, then both types are stored"
